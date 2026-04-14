@@ -1,0 +1,19 @@
+.quick-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.quick-card {
+  background: #e5eaf2;
+  padding: 20px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.quick-card:hover {
+  background: #dbeafe;
+}

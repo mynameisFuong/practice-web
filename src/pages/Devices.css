@@ -1,0 +1,31 @@
+.devices-page {
+    padding: 40px;
+}
+
+.devices-page h1 {
+    margin-bottom: 20px;
+}
+
+.devices-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.devices-table th,
+.devices-table td {
+    padding: 14px;
+    text-align: left;
+}
+
+.devices-table th {
+    border-bottom: 1px solid #e5e7eb;
+    background: #f0f0f0;
+    font-weight: 600;
+}
+
+.devices-table tr:hover {
+    background: #f9fafb;
+}

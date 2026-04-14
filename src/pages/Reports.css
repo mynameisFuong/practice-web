@@ -1,0 +1,31 @@
+.reports-page {
+    padding: 40px;
+}
+
+.reports-page h1 {
+    margin-bottom: 20px;
+}
+
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.reports-table th,
+.reports-table td {
+    padding: 14px;
+    text-align: left;
+}
+
+.reports-table th {
+    border-bottom: 1px solid #e5e7eb;
+    background: #f0f0f0;
+    font-weight: 600;
+}
+
+.reports-table tr:hover {
+    background: #f9fafb;
+}

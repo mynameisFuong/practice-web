@@ -1,0 +1,46 @@
+.statistics-page {
+  padding: 40px;
+}
+
+.statistics-page h1 {
+  margin-bottom: 30px;
+}
+
+/* grid layout */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* card */
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+}
+
+/* hover cho đẹp */
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* số lớn */
+.stat-card h2 {
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* label */
+.stat-card p {
+  color: #6b7280;
+}
+
+.stat-card:nth-child(1) { border-top: 4px solid #3b82f6; }
+.stat-card:nth-child(2) { border-top: 4px solid #10b981; }
+.stat-card:nth-child(3) { border-top: 4px solid #ef4444; }
+.stat-card:nth-child(4) { border-top: 4px solid #f59e0b; }
